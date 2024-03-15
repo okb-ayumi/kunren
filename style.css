@@ -52,7 +52,7 @@ a:focus {outline:none;}
 
 body{
     border-top: 5px solid #eda55e;
-    font-family: "メイリオ",Meiryo;
+    font-family: "Noto Sans JP", sans-serif;
     background-color: #d9ceb7;
 }
 
@@ -88,6 +88,7 @@ header h1 span{
     font-size: 33px;
     color: rgb(41, 12, 12);
     font-weight: bold;
+    font-style: italic;
     margin-top: 5px;
     margin-left: 20px;
     display: inline-block;
@@ -275,6 +276,7 @@ div#left dl dd:last-child {
 dl dt a {
     text-decoration: none;
     color: #927e7a;
+    padding-left: 40px
 }
 
 dl dt a:hover{
@@ -296,10 +298,12 @@ div#left h3#coala {
     font-weight: bold;
     color: rgb(41, 12, 12);
     background: url(images/coala.png) no-repeat;
-    padding-left: 40px;
+    background-position: left bottom;
+    padding-left:40px;
     height: 35px;
     line-height: 35px;
     margin-top: 20px;
+    border-top: 1px dotted #878181;
 }
 
 div#left h3#giraffe {
@@ -307,10 +311,13 @@ div#left h3#giraffe {
     font-weight: bold;
     color: rgb(41, 12, 12);
     background: url(images/giraffe.png) no-repeat;
+    background-position: left bottom;
     padding-left: 40px;
+    padding-top: 5px;
     height: 35px;
     line-height: 35px;
     margin-top: 20px;
+    border-top: 1px dotted #878181;
 }
 
 
