@@ -51,8 +51,9 @@ a:focus {outline:none;}
 
 
 body{
-    border-top: 5px solid #c17e4e;
+    border-top: 5px solid #eda55e;
     font-family: "メイリオ",Meiryo;
+    background-color: #d9ceb7;
 }
 
 div#wrapper {
@@ -117,8 +118,8 @@ header nav ul li a {
 }
 
 header nav ul li:hover a{
-    color: #af500b;
-    border-bottom: 4px solid #af500b;
+    color: #eda55e;
+    border-bottom: 4px solid #eda55e;
 }
 
 div.clear{
@@ -153,7 +154,7 @@ div#left h2 {
     font-size: 17px;
     font-weight: bold;
     color: rgb(41, 12, 12);
-    border-left: 5px solid #ba3009;
+    border-left: 5px solid #90bf6f;
     padding-left: 10px;
 }
 
@@ -196,7 +197,7 @@ div#right ul li a{
     display: block;
     font-size: 17px;
     font-weight: bold;
-    color: #c17e4e;
+    color: #eda55e;
     text-decoration: none;
     padding-left: 140px;
 }
@@ -219,7 +220,7 @@ div.clear{
 footer {
     width: 100%;
     height: 58px;
-    background-color: #c17e4e;
+    background-color: #eda55e;
     margin-top: 20px;
     font-size: 12px;
     color: #fff;
@@ -240,7 +241,7 @@ h2#heading{
     margin-bottom: 20px;
     font-size: 27px;
     font-weight: bold;
-    color: #c17e4e;
+    color: #eda55e;
     line-height: 70px;
     padding-left: 23px;
 }
@@ -275,7 +276,7 @@ dl dt a {
 }
 
 dl dt a:hover{
-    color: #af500b;
+    color: #eda55e;
 }
 
 div#left h3#panda {
